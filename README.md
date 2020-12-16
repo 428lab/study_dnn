@@ -11,4 +11,4 @@ pip install -r requirements.txt
 
 ## RNN
 RNNの学習に関するソースコード
-- [MNISTをRNNで学習](https://github.com/428lab/study_dnn)
+- [MNISTをRNNで学習](https://github.com/428lab/study_dnn/rnn_mnist_keras.py)

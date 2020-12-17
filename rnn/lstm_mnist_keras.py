@@ -26,7 +26,7 @@ def get_args():
 
 def lstm_model(num_classes, args):
   model = Sequential()
-  model.add(LSTM(units=args.units, dropout=0.25, return_sequences=True))
+  model.add(LSTM(units=args.units, dropout=0.25, return_sequences=False))
   model.add(LeakyReLU(alpha=0.01))
   model.add(Dense(num_classes))
   model.add(Activation('softmax'))
